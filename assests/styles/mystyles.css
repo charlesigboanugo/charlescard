@@ -89,6 +89,7 @@ p, .added-details, .social-links{
     margin-bottom: 1.5em;
 }
 .social-links i{
+    color:#fff;
     font-size: 1.5em;
 }
 .current-date{
