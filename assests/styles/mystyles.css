@@ -5,11 +5,16 @@ body{
     text-align: center;
     color: #fff;
     background-color: #6f047e;
-    font-size:1.2vw;
+    font-size:16px;
+}
+@media(max-width: 1024px){
+    body{
+        font-size: 14px;
+    }
 }
 @media (max-width: 768px){
     body{
-        font-size: 2vw;
+        font-size: 10px;
     }
 }
 .container{
@@ -22,18 +27,26 @@ body{
 .container > div{
     background-color: #24213c;
     height: 85%;
-    width: 40%;
+    width: 50%;
     border: solid 1px;
     border-radius: 4%;
+}
+@media(max-width: 1024px){
+    .container > div{
+        width: 60%;
+        height:80%;
+    }
 }
 @media(max-width: 768px){
     .container > div{
         width: 70%;
+        height: 70%;
     }
 }
 @media(max-width: 360px){
     .container > div{
         width: 90%;
+        height: 65%;
     }
 }
 .background-overlay{
