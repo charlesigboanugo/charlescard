@@ -4,7 +4,7 @@ html{
 body{
     text-align: center;
     color: #fff;
-    background-color: #000;
+    background-color: #6f047e;
     font-size:1.2vw;
 }
 @media (max-width: 768px){
@@ -20,6 +20,7 @@ body{
     align-items: center;
 }
 .container > div{
+    background-color: #24213c;
     height: 85%;
     width: 40%;
     border: solid 1px;
