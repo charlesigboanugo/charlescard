@@ -48,12 +48,12 @@ body{
 }
 @media(max-width: 1024px) {
     .minor span{
-        font-size: 0.6rem;
+        font-size: 0.5rem;
     }
 }
 @media(max-width: 768px) {
     .minor span{
-        font-size: 0.4rem;
+        font-size: 0.45rem;
     }
 }
 .background-overlay{
