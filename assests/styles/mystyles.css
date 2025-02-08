@@ -5,7 +5,7 @@ html{
 @media(max-width: 768px)
 {
 	html{
-	    font-size: 1vh;
+	    font-size: 2vh;
 	}
 }
 body{
