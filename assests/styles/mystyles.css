@@ -46,6 +46,11 @@ body{
     width: 48%;
     font-size: 0.65rem;
 }
+@media(max-width: 768px) {
+    .minor span{
+        font-size: 0.55rem;
+    }
+}
 .background-overlay{
     position: relative;
     border-bottom: solid;
