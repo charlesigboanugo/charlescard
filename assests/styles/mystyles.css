@@ -93,6 +93,7 @@ p{
     line-height: 1.7;
 }
 .added-details div{
+    margin-bottom: 1.5rem;
     font-size: 0.8rem;
     width: 50%;
 }
@@ -110,9 +111,7 @@ p{
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-end;
-}
-p, .added-details, .social-links{
-    margin-bottom: 0.8rem;
+    margin-bottom: 1.5rem;
 }
 .social-links i{
     color:#fff;
@@ -127,5 +126,6 @@ p, .added-details, .social-links{
 .content{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-end;
+    border: solid;
 }
