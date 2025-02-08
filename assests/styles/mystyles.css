@@ -127,5 +127,5 @@ p, .added-details, .social-links{
 .sub-content{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
