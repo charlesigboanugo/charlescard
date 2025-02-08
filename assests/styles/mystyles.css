@@ -39,7 +39,7 @@ body{
 }
 @media(max-width: 768px){
     .container > div{
-        width: 70%;
+        width: 90%;
         height: 70%;
     }
 }
