@@ -44,6 +44,13 @@ body{
     border: solid 1px;
     border-radius: 4%;
 }
+.minor{
+    padding:1rem;
+    position: absolute;
+}
+.minor span{
+    font-size: 0.6rem;
+}
 /*@media(max-width: 1024px){
     .container > div{
         width: 60%;
@@ -86,21 +93,23 @@ h4{
     font-size:0.9rem;
 }
 h1, h4{
-    margin: 0.25rem 0 0 0;
+    margin: 0.18rem 0 0 0;
 }
 p{
     font-size: 0.8rem;
     line-height: 1.7;
 }
-.added-details div{
+.added-details{
     margin-bottom: 1.5rem;
+}
+.added-details span{
     font-size: 0.8rem;
     width: 50%;
 }
-.added-details .left{
+.left{
     text-align: left;
 }
-.added-details .right{
+.right{
     text-align: right;
 }
 .social-links > a{
@@ -109,19 +118,13 @@ p{
 .social-links{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-end;
     margin-bottom: 1.5rem;
 }
 .social-links i{
     color:#fff;
     font-size: 1.5rem;
-}
-.current-date{
-    font-size: 0.9rem;
-    padding:1rem;
-    position: absolute;
-    text-align: left;
 }
 .content{
     display: flex;
