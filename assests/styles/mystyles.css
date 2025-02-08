@@ -126,7 +126,6 @@ p{
 .content{
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    border: solid;
+    justify-content: space-around;
     height: 80%;
 }
