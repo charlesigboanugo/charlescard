@@ -94,7 +94,6 @@ p{
 }
 .added-details div{
     font-size: 0.8rem;
-    margin-top: 1rem;
     width: 50%;
 }
 .added-details .left{
@@ -113,7 +112,7 @@ p{
     align-items: flex-end;
 }
 p, .added-details, .social-links{
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.8rem;
 }
 .social-links i{
     color:#fff;
