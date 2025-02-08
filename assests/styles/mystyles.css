@@ -28,6 +28,7 @@ body{
     background-color: #24213c;
     height: 80%;
     width: calc(0.8 * 0.8 * 97vh);
+    max-width:80%;
     border: solid 1px;
     border-radius: 4%;
 }
