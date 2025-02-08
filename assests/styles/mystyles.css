@@ -1,13 +1,13 @@
 html{
     box-sizing: border-box;
+    font-size: 2.5vh;
 }
 body{
     text-align: center;
     color: #fff;
     background-color: #6f047e;
-    font-size:1.2vw;
 }
-@media(max-width: 1024px){
+/*@media(max-width: 1024px){
     body{
         font-size: 1.4vw;
     }
@@ -16,7 +16,7 @@ body{
     body{
         font-size: 1.6vw;
     }
-}
+}*/
 .container{
     height: 97vh;
     display:flex;
@@ -26,12 +26,12 @@ body{
 }
 .container > div{
     background-color: #24213c;
-    height: 85%;
-    width: 50%;
+    height: 80%;
+    width: calc(0.8 * 0.8 * 97vh);
     border: solid 1px;
     border-radius: 4%;
 }
-@media(max-width: 1024px){
+/*@media(max-width: 1024px){
     .container > div{
         width: 60%;
         height:80%;
@@ -40,18 +40,18 @@ body{
 @media(max-width: 768px){
     .container > div{
         width: 90%;
-        height: 70%;
+        height: 55%;
     }
 }
 @media(max-width: 360px){
     .container > div{
         width: 90%;
-        height: 65%;
+        height: 50%;
     }
-}
+}*/
 .background-overlay{
     border-bottom: solid;
-    height:25%;
+    height:20%;
 }
 img{
     position: relative;
@@ -62,25 +62,26 @@ img{
     margin: auto;
 }
 .content{
-    padding: 0 2.5em 0 2.5em;
+    padding: 0 1.2rem 0 1.2rem;
 }
 h1{
-    font-size:2em;
+    font-size:1.5rem;
     margin: 0;
     padding-top: calc(97vh * 0.8 * 0.25 * 0.5);
 }
 h4{
-    font-size:1.2em;
+    font-size:0.9rem;
 }
 h1, h4{
-    margin: 0.31em 0 0 0;
+    margin: 0.31rem 0 0 0;
 }
 p{
-    font-size: 1em;
+    font-size: 0.8rem;
     line-height: 1.7;
 }
 .added-details span{
-    margin-top: 1em;
+    font-size: 0.8rem;
+    margin-top: 1rem;
     display:inline-block;
     width: 50%;
 }
@@ -99,14 +100,15 @@ p{
     justify-content: space-around;
 }
 p, .added-details, .social-links{
-    margin-bottom: 1.5em;
+    margin-bottom: 1.5rem;
 }
 .social-links i{
     color:#fff;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 .current-date{
-    padding:1em;
+    font-size: 0.9rem;
+    padding:1rem;
     position: absolute;
     text-align: left;
 }
