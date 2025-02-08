@@ -1,5 +1,5 @@
 html{
-    font-size: 2.5vh;
+    font-size: 2.8vh;
 }
 *, *::before, *::after{
     box-sizing: border-box;
@@ -7,13 +7,13 @@ html{
 @media(max-width: 768px)
 {
 	html{
-	    font-size: 2.1vh;
+	    font-size: 2.05vh;
 	}
 }
 @media(max-width: 1024px)
 {
 	html{
-	    font-size: 2.2vh;
+	    font-size: 2.3vh;
 	}
 }
 body{
@@ -69,7 +69,7 @@ h1{
     font-size:1.5rem;
     margin: 0;
     padding: 0 1.2rem;
-    padding-top: calc(97vh * 0.8 * 0.25 * 0.5);
+    padding-top: calc(97vh * 0.8 * 0.2 * 0.5);
 }
 h4{
     font-size:0.9rem;
