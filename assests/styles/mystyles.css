@@ -49,6 +49,8 @@ body{
     position: absolute;
 }
 .minor span{
+    display: inline-block;
+    width: 50%;
     font-size: 0.6rem;
 }
 /*@media(max-width: 1024px){
