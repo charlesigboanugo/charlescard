@@ -110,6 +110,7 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: flex-end;
 }
 p, .added-details, .social-links{
     margin-bottom: 1.5rem;
