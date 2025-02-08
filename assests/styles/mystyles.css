@@ -5,16 +5,16 @@ body{
     text-align: center;
     color: #fff;
     background-color: #6f047e;
-    font-size:16px;
+    font-size:1.2vw;
 }
 @media(max-width: 1024px){
     body{
-        font-size: 14px;
+        font-size: 1.4vw;
     }
 }
 @media (max-width: 768px){
     body{
-        font-size: 10px;
+        font-size: 1.6vw;
     }
 }
 .container{
