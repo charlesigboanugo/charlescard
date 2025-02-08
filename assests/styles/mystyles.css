@@ -128,4 +128,5 @@ p{
     flex-direction: column;
     justify-content: flex-end;
     border: solid;
+    height: 80;
 }
