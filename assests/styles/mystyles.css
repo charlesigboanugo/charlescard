@@ -36,6 +36,12 @@ body{
     border: solid 1px;
     border-radius: 4%;
 }
+@media(max-width: 768px)
+{
+    .container > div{
+        height: 75%;
+    }
+}
 .minor{
     padding: 0.6rem;
     width: 100%;
