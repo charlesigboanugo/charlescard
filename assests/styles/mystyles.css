@@ -1,6 +1,8 @@
 html{
-    box-sizing: border-box;
     font-size: 2.5vh;
+}
+*, *::before, *::after{
+    box-sizing: border-box;
 }
 @media(max-width: 768px)
 {
@@ -35,9 +37,9 @@ body{
     border-radius: 4%;
 }
 .minor{
+    padding: 0.6rem;
     width: 100%;
     position: absolute;
-    border: solid;
 }
 .minor span{
     display: inline-block;
@@ -60,7 +62,7 @@ img{
 .content{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 80%;
 }
 h1{
