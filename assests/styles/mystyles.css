@@ -44,7 +44,7 @@ body{
 .minor span{
     display: inline-block;
     width: 48%;
-    font-size: 0.45rem;
+    font-size: 0.6rem;
 }
 .background-overlay{
     position: relative;
@@ -76,7 +76,7 @@ h4{
     padding: 0 1.2rem;
 }
 h1, h4{
-    margin: 0.1rem 0 0 0;
+    margin: 0.6rem 0 0 0;
 }
 p{
     padding: 0 1.2rem;
