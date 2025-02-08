@@ -47,6 +47,8 @@ body{
 .minor{
     padding:1rem;
     position: absolute;
+    width: 100%;
+    border: solid;
 }
 .minor span{
     display: inline-block;
@@ -105,6 +107,7 @@ p{
     margin-bottom: 1.5rem;
 }
 .added-details span{
+    border: solid;
     display: inline-block;
     font-size: 0.8rem;
     width: 50%;
