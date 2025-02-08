@@ -1,5 +1,5 @@
 html{
-    /*box-sizing: border-box;*/
+    box-sizing: border-box;
     font-size: 2.5vh;
 }
 @media(max-width: 768px)
@@ -19,16 +19,6 @@ body{
     color: #fff;
     background-color: #6f047e;
 }
-/*@media(max-width: 1024px){
-    body{
-        font-size: 1.4vw;
-    }
-}
-@media (max-width: 768px){
-    body{
-        font-size: 1.6vw;
-    }
-}*/
 .container{
     height: 97vh;
     display:flex;
@@ -46,7 +36,6 @@ body{
 }
 .minor{
     width: 100%;
-    padding:1rem;
     position: absolute;
     border: solid;
 }
@@ -55,24 +44,6 @@ body{
     width: 48%;
     font-size: 0.45rem;
 }
-/*@media(max-width: 1024px){
-    .container > div{
-        width: 60%;
-        height:80%;
-    }
-}
-@media(max-width: 768px){
-    .container > div{
-        width: 90%;
-        height: 55%;
-    }
-}
-@media(max-width: 360px){
-    .container > div{
-        width: 90%;
-        height: 50%;
-    }
-}*/
 .background-overlay{
     position: relative;
     border-bottom: solid;
