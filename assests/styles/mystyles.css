@@ -86,10 +86,9 @@ p{
     font-size: 0.8rem;
     line-height: 1.7;
 }
-.added-details span{
+.added-details div{
     font-size: 0.8rem;
     margin-top: 1rem;
-    display:inline-block;
     width: 50%;
 }
 .added-details .left{
